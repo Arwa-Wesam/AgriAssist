@@ -1,0 +1,68 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 5px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li ,.contact a{
+    margin-right: 20px;
+  }
+  
+  .nav-links a, .contact a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ccc;
+  }
+  .contact i{
+    color: #6ADB9F;
+  }
+  a:hover , i:hover{
+    cursor: pointer;
+  }
+  /* For navbar responsiveness */
+@media only screen and (max-width: 600px) {
+  .header {
+    margin-top: 50px;
+  }
+  a{
+    font-size: x-small;
+  }
+}
+#tel{
+  text-decoration: underline;
+  color: #53AB9D;
+  text-align: left;
+  
+}
